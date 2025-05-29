@@ -1,0 +1,29 @@
+# Virtual environment
+exp-tracking-env/
+02-experiment-tracking/exp-tracking-env/
+
+# MLflow artifacts
+mlruns/
+models/
+
+# Data files (usually too large for git)
+data/
+*.parquet
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# MLflow database
+mlflow.db
+*.db
+*.sqlite
+
+# Environment variables
+.env
